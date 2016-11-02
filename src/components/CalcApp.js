@@ -33,9 +33,26 @@ class CalcApp extends React.Component {
           </div>
           <div className="calc-row">
             <CalcButton className="calc-number">7</CalcButton>
-            <CalcButton className="calc-number"></CalcButton>
-            <CalcButton className="calc-number"></CalcButton>
-            <CalcButton className="calc-operator"></CalcButton>
+            <CalcButton className="calc-number">8</CalcButton>
+            <CalcButton className="calc-number">9</CalcButton>
+            <CalcButton className="calc-operator">x</CalcButton>
+          </div>
+          <div className="calc-row">
+            <CalcButton className="calc-number">4</CalcButton>
+            <CalcButton className="calc-number">5</CalcButton>
+            <CalcButton className="calc-number">6</CalcButton>
+            <CalcButton className="calc-operator">-</CalcButton>
+          </div>
+          <div className="calc-row">
+            <CalcButton className="calc-number">1</CalcButton>
+            <CalcButton className="calc-number">2</CalcButton>
+            <CalcButton className="calc-number">3</CalcButton>
+            <CalcButton className="calc-operator">+</CalcButton>
+          </div>
+          <div className="calc-row">
+            <CalcButton className="calc-number calc-double-btn">0</CalcButton>
+            <CalcButton className="calc-number">.</CalcButton>
+            <CalcButton className="calc-number">=</CalcButton>
           </div>
         </div>
       </div>

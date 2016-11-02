@@ -35,6 +35,9 @@
   border: 1px solid #a08c88;
   background-color: #c8c9cb;
 }
+.calc-double-btn {
+  width: 120px;
+}
 
 .bigger-btn {
   width: 122px;
