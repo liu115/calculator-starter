@@ -30,3 +30,16 @@ it('call props.onClick when button be clicked', () => {
 
   expect(onClick).toBeCalled();
 });
+
+// it('show not implemented for default props.onClick when no onClick handler', () => {
+//   const element = mount(
+//     <CalcButton>
+//       %
+//     </CalcButton>
+//   );
+//
+//   const button = element.find('button');
+//   button.simulate('click');
+//
+//   expect(showNotImplemented).toBeCalled();
+// });
